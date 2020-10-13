@@ -1,0 +1,65 @@
+.page-map{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+
+    display: flex;
+}
+.sidebar{
+    width: 32%;
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar main > h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+}
+
+.sidebar main > p{
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.sidebar > footer{
+     display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+.sidebar > footer > strong{
+    font-weight: 800;
+}
+
+.page-map .leaflet-container{
+    z-index: 5;
+}
+
+ .create-orphanage{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 10;
+
+    width: 64px;
+    height: 64px;
+    bottom: 40px;
+    right: 40px;
+
+    border-radius: 20px;
+    background-color: #15c3d6;
+    transition: .5s background-color;
+}
+
+
+.create-orphanage:hover{
+    background-color: #17d6eb;
+}
